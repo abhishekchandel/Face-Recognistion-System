@@ -1,4 +1,4 @@
-﻿var FPP = angular.module('FacePinPointApp', ['ui.bootstrap', 'ngSanitize', 'ngCookies', 'ngStorage', 'ui.router', 'ngAnimate', 'ngDialog', 'toaster', 'webcam', 'ngValidate', 'angular-loading-bar', 'signature']);
+﻿var FPP = angular.module('DemoApp', ['ui.bootstrap', 'ngSanitize', 'ngCookies', 'ngStorage', 'ui.router', 'ngAnimate', 'ngDialog', 'toaster', 'webcam', 'ngValidate', 'angular-loading-bar', 'signature']);
 
 
 FPP.config(function ($httpProvider, $cookiesProvider, $validatorProvider, $stateProvider, $urlRouterProvider, $locationProvider, cfpLoadingBarProvider) {
