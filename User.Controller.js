@@ -519,7 +519,7 @@ FPP.controller('PaymentController', ['$scope', '$rootScope', '$state', 'ngDialog
                         $scope.FormDetail.fields = [
                                 { "type": "hidden", "name": "cmd", "value": "_xclick" },
                                 { "type": "hidden", "name": "currency_code", "value": "USD" },
-                                { "type": "hidden", "name": "business", "value": "payment@facepinpoint.com" },
+                                { "type": "hidden", "name": "business", "value": "payment@*****.com" },
                                 { "type": "hidden", "name": "return", "value": FPP_URL + "DMCA/payment-confirmation?status=success" },
                                 { "type": "hidden", "name": "notify_url", "value": BASE_URL + "DMCAPayment.aspx?source=PayPal" },
                                 { "type": "hidden", "name": "cancel_return", "value": FPP_URL + "DMCA/payment-confirmation?status=cancel" }
@@ -731,7 +731,7 @@ FPP.controller('StartPlanController', ['$scope', '$rootScope', '$state', 'ngDial
                                 { "type": "hidden", "name": "cmd", "value": "_xclick-subscriptions" },
                                 { "type": "hidden", "name": "hosted_button_id", "value": "NSZT3F6YVV57Q" },
                                 { "type": "hidden", "name": "currency_code", "value": "USD" },
-                                { "type": "hidden", "name": "business", "value": "payment@facepinpoint.com" },
+                                { "type": "hidden", "name": "business", "value": "payment@*****.com" },
                                 { "type": "hidden", "name": "return", "value": FPP_URL + "Plan/StartNow" },
                                 { "type": "hidden", "name": "notify_url", "value": BASE_URL + "FRPayment.aspx?source=PayPal" },
                                 { "type": "hidden", "name": "cancel_return", "value": FPP_URL + "Plan/StartNow" }
